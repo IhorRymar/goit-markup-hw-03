@@ -56,7 +56,7 @@ button {
 }
 
 .header {
-  border-bottom: ridge gray;
+  border-bottom: 1px ridge gray;
 }
 
 .header-container {
