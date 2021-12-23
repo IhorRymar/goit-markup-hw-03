@@ -47,16 +47,13 @@ button {
 .header {
   background-color: var(--primary-color);
   height: 80px;
+  border-bottom: 1px ridge rgb(224, 224, 224);
 }
 
 .container {
   width: 1200px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
-}
-
-.header {
-  border-bottom: 1px ridge gray;
 }
 
 .header-container {
