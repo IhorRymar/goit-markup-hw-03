@@ -335,14 +335,17 @@ button {
 }
 
 .service-title {
-  margin-top: 20px;
-  margin-bottom: 4px;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 
 .service-text {
   font-size: 16px;
   line-height: 1.9;
   color: var(--secondary-text-color);
+  padding-top: 4px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 /* ПОДВАЛ */
