@@ -47,7 +47,7 @@ button {
 .header {
   background-color: var(--primary-color);
   height: 80px;
-  border-bottom: 1px ridge rgb(224, 224, 224);
+  border-bottom: 1px ridge #ececec;
 }
 
 .container {
