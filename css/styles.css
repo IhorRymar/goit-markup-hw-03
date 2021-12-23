@@ -245,7 +245,6 @@ button {
   margin-right: 30px;
   padding-bottom: 30px;
   background-color: var(--primary-color);
-  border-bottom: 1px ridge gray;
 }
 
 .team-text {
@@ -325,13 +324,14 @@ button {
 .service-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
+  margin-right: -30px;
 }
 
 .service-list-item {
   width: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px ridge #ececec;
 }
 
 .service-title {
