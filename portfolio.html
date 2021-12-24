@@ -22,36 +22,34 @@
     <!--Шапка проекта-->
     <header class="header">
       <div class="container header-container">
-        <a class="link logo-link" href="#" lang="en">
-          <span class="accent-color">Web</span>Studio</a
-        >
         <nav class="header-nav">
+          <a class="link logo-link" href="#" lang="en">
+            <span class="accent-color">Web</span>Studio</a
+          >
           <ul class="list header-list">
             <li class="header-item">
-              <a class="link" href="index.html">Студия</a>
+              <a class="link current-item" href="index.html">Студия</a>
             </li>
             <li class="header-item">
-              <a class="link current-item" href="portfolio.html">Портфолио</a>
+              <a class="link" href="portfolio.html">Портфолио</a>
             </li>
             <li class="header-item">
               <a class="link" href="#">Контакты</a>
             </li>
           </ul>
         </nav>
-        <div class="header-cntc">
-          <ul class="list cntc-list">
-            <li class="cntc-list-item">
-              <a class="link mail-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="cntc-list-item">
-              <a class="link tel-link" href="tel:+380961111111"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </div>
+        <ul class="list cntc-list">
+          <li class="cntc-list-item">
+            <a class="link mail-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="cntc-list-item">
+            <a class="link tel-link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -65,83 +63,110 @@
               <button type="button" class="btns-list-item all-btn">Все</button>
             </li>
             <li>
-              <button type="button" class="btns-list-item ws-btn">Веб-сайты</button>
+              <button type="button" class="btns-list-item ws-btn">
+                Веб-сайты
+              </button>
             </li>
             <li>
-              <button type="button" class="btns-list-item app-btn">Приложения</button>
+              <button type="button" class="btns-list-item app-btn">
+                Приложения
+              </button>
             </li>
             <li>
-              <button type="button" class="btns-list-item design-btn">Дизайн</button>
+              <button type="button" class="btns-list-item design-btn">
+                Дизайн
+              </button>
             </li>
             <li>
-              <button type="button" class="btns-list-item marketing-btn">Маркетинг</button>
+              <button type="button" class="btns-list-item marketing-btn">
+                Маркетинг
+              </button>
             </li>
           </ul>
-        </div>
-        <!--Список услуг-->
-        <div class="container">
+          <!--Список услуг-->
           <ul class="list service-list">
-            <li class="service-list-item" href="#">
+            <li class="service-list-item">
+              <a class="link" href="#">
                 <img src="./images/tecno.jpg" alt="технокряк" />
-                <h2 class="service-title">Технокряк</h2>
-                <p class="service-text">Веб-сайт</p></a
-              >
+                <div class="service-info">
+                  <h2 class="service-title">Технокряк</h2>
+                  <p class="service-text">Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/basketball.jpg" alt="постер" />
-                <h2 class="service-title">Постер New Orlean vs Golden Star</h2>
-                <p class="service-text">Дизайн</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/basketball.jpg" alt="постер" />
+                <div class="service-info">
+                  <h2 class="service-title">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="service-text">Дизайн</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/seafood.jpg" alt="ресторан" />
-                <h2 class="service-title">Ресторан Seafood</h2>
-                <p class="service-text">Приложение</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/seafood.jpg" alt="ресторан" />
+                <div class="service-info">
+                  <h2 class="service-title">Ресторан Seafood</h2>
+                  <p class="service-text">Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/prime.jpg" alt="проект" />
-                <h2 class="service-title">Проект Prime</h2>
-                <p class="service-text">Маркетинг</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/prime.jpg" alt="проект" />
+                <div class="service-info">
+                  <h2 class="service-title">Проект Prime</h2>
+                  <p class="service-text">Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/boxes.jpg" alt="ящики" />
-                <h2 class="service-title">Проект Boxes</h2>
-                <p class="service-text">Приложение</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/boxes.jpg" alt="ящики" />
+                <div class="service-info">
+                  <h2 class="service-title">Проект Boxes</h2>
+                  <p class="service-text">Приложение</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/no-borders.jpg" alt="сайт" />
-                <h2 class="service-title">Inspiration has no Borders</h2>
-                <p class="service-text">Веб-сайт</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/no-borders.jpg" alt="сайт" />
+                <div class="service-info">
+                  <h2 class="service-title">Inspiration has no Borders</h2>
+                  <p class="service-text">Веб-сайт</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/limited-ed.jpg" alt="издание" />
-                <h2 class="service-title">Издание Limited Edition</h2>
-                <p class="service-text">Дизайн</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/limited-ed.jpg" alt="издание" />
+                <div class="service-info">
+                  <h2 class="service-title">Издание Limited Edition</h2>
+                  <p class="service-text">Дизайн</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/lab.jpg" alt="лаборатория" />
-                <h2 class="service-title">Проект LAB</h2>
-                <p class="service-text">Маркетинг</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/lab.jpg" alt="лаборатория" />
+                <div class="service-info">
+                  <h2 class="service-title">Проект LAB</h2>
+                  <p class="service-text">Маркетинг</p>
+                </div>
+              </a>
             </li>
             <li class="service-list-item">
-              <a class="link" href="#"
-                ><img src="./images/bussines.jpg" alt="бизнес" />
-                <h2 class="service-title">Growing Business</h2>
-                <p class="service-text">Приложение</p></a
-              >
+              <a class="link" href="#">
+                <img src="./images/bussines.jpg" alt="бизнес" />
+                <div class="service-info">
+                  <h2 class="service-title">Growing Business</h2>
+                  <p class="service-text">Приложение</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
